@@ -3,4 +3,6 @@
 $serverName = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "";
+$dbName = "portfolio";
+
+$conn = "";
