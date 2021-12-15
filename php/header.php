@@ -10,10 +10,6 @@
 
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/index.css">
-       
-
-
-
         
     </head>
 
@@ -64,6 +60,7 @@
             </a>
 
             <?php
+            
             session_start();
             if ($_SESSION['username'] != '') {
                 echo'<a href="logout.php" class="header-links">                 
